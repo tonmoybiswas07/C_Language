@@ -1,6 +1,9 @@
-#include<stdio.h>
-int main(){
-   
+#include <stdio.h>
+int main()
+{
+    for (int i = 0; i <= 2; i++)
+    {
+        printf("CSE 23rd batch\n");
+    }
     return 0;
-
 }
