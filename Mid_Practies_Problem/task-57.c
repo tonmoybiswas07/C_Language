@@ -1,0 +1,16 @@
+// two number swipe
+#include <stdio.h>
+int main()
+{
+    int a, b;
+
+    printf("Enter a and b value:");
+    scanf("%d %d", &a, &b);
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    printf("%d\n", a, b);
+    return 0;
+}
